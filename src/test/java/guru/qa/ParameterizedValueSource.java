@@ -24,7 +24,7 @@ public class ParameterizedValueSource {
     @ParameterizedTest(name = "Название предмета Maths должно появиться по запросу {0}")
 
     @Tags({@Tag("BLOCKER"), @Tag("UI_TEST")})
-    void SubjectsNameShouldBePresentInResultsByLettersQuery(
+    void subjectsNameShouldBePresentInResultsByLettersQuery(
             String letters
     ) {
         open("/automation-practice-form");
