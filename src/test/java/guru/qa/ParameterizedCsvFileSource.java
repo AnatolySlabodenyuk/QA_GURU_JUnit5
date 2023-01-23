@@ -21,7 +21,7 @@ public class ParameterizedCsvFileSource {
     @ParameterizedTest(name = "Название предмета {1} должно появиться по запросу {0}")
 
     @Tags({@Tag("BLOCKER"), @Tag("UI_TEST")})
-    void SubjectsNameShouldBePresentInResultsByLettersQuery(
+    void subjectsNameShouldBePresentInResultsByLettersQuery(
             String letters,
             String subject
     ) {
